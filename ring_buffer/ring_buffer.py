@@ -15,7 +15,7 @@ class RingBuffer:
 
     def get(self):
         itemlist = [item for item in self.storage if item != None]
-        print(itemlist)
+        return(itemlist)
 
 
 buffer = RingBuffer(5)
